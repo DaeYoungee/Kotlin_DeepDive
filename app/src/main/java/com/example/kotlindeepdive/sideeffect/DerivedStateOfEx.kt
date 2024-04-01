@@ -32,7 +32,6 @@ fun DerivedStateOfEx(mainViewModel: MainViewModel) {
             Text(text = "plus")
         }
         Text(text = mainViewModel.count.value.toString(), modifier = Modifier.padding(vertical = 16.dp))
-        Log.d("daeyoung", "일반로그2")
         Text(text = mainViewModel.derivedCount.value.toString(), modifier = Modifier.padding(vertical = 16.dp))
     }
 }
